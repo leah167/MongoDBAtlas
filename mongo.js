@@ -456,6 +456,24 @@ const sampleBlogs = [
 
 // * Write a script in NoSqlBooster that does the following: Insert a new blog post, Read the new blog post, Update the new blog post with a new title, Delete the new blog post
 
+// *initial code under posts*
+// const newBlog = {
+//     createdAt: new Date().toISOString(),
+//     title: 'New Title',
+//     text: 'blogblogblogblog',
+//     author: 'Leah S',
+//     id: String(db.posts.count() + 1)
+// }
+
+// db.posts.insertOne(newBlog);
+
+// db.posts.find()
+
+// db.posts.updateOne({title: 'New Title'}, {$set: {title: 'Roman History'}})
+
+
+// db.posts.deleteOne({title : 'Roman History'})
+
    
 const insertNewBlogPost = (myTitle, myText, myAuthor, myCategory) => { 
     
